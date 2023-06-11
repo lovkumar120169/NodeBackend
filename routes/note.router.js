@@ -2,7 +2,7 @@ const express = require("express")
 const { NoteModel } = require("../model/note.model")
 
 const noteRouter = express.Router()
-
+// binod
 
 noteRouter.get("/notes", async (req, res) => {
     console.log(req.body)
